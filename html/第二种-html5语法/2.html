@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 表单标签 -->
+    <form action="" method="get">
+        <p>
+            <label for="username">账户:</label>
+            <input type="text" name="username" id="username">
+        </p>
+        <p>
+            <label for="password">密码：</label>
+            <input type="password" name="password" id="password">
+        </p>
+        <p>
+            <input type="submit">
+        </p>
+    </form>
+    <br>
+    <br>
+    <hr>
+    <!-- testarea演示 -->
+    <form action="" method="post">
+        <textarea name="mycontent" id="mycontent" cols="30" rows="10"></textarea>
+        <input type="submit">
+
+    </form>
+    <br>
+    <!-- fieldset legend select optgroup option 演示 -->
+    <form action="" method="post">
+        <fieldset>
+            <legend>请选择你的爱好</legend>
+            <select name="mybobby" id="mybobby">
+                <optgroup label="运动">
+                    <option value="篮球">篮球</option>
+                    <option value="足球">足球</option>
+                </optgroup>
+                <optgroup label="电子">
+                    <option value="看电影">看电影</option>
+                    <option value="看电视">看电视</option>
+                </optgroup>
+
+            </select>
+
+        </fieldset>
+
+    </form>
+    <br>
+    <!-- datalist演示 -->
+    <form action="" method="post">
+        <input list="browsers">
+        <datalist id="browsers">
+            <option value="int"></option>
+            <option value="opera"></option>
+        </datalist>
+
+    </form>
+    <br>
+    <!-- 单选框演示 -->
+    <form action="" method="post">
+        <input type="radio" name="sex" id="male" value="male" checked>
+        <label for="male">Male</label>
+        <input type="radio" name="sex" id="female" value="female">
+        <label for="female">female</label>
+    </form>
+    <!-- 音频标签 -->
+    <audio src="">
+        <source src="">
+    </audio>
+    
+
+
+</body>
+</html>
